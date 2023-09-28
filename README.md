@@ -1,12 +1,12 @@
 # Cart Encryption Data Plugin
 ## Plugin Name: Cart Encryption Data Plugin
-**Description: A WordPress plugin for saving cart information, generate encrypted links, and allow for checkout.**
-**Version: 1.0**
-**Author: Shantanu Goswami**
+- **Description: A WordPress plugin for saving cart information, generate encrypted links, and allow  for checkout.**
+- **Version: 1.0**
+- **Author: Shantanu Goswami**
 
 ## Instructions:
 
-After downloading or cloning the plugin you need to do install the plugin in wordpress.
+Prerequisite needs WooCommerce plugin installed in wordpress.
 
 ## Installation
 
@@ -18,7 +18,7 @@ To install the Cart Encryption Data Plugin, follow these steps:
 
 2. **Upload the plugin to your WordPress site.**
    - Extract the downloaded ZIP archive.
-   - Upload the entire `cart-encryption-plugin` directory to your WordPress plugins directory, typically located at `wp-content/plugins/`.
+   - Upload the entire `cart-encryption-data` directory to your WordPress plugins directory, typically located at `wp-content/plugins/`.
 
 3. **Activate the plugin.**
    - Go to the WordPress admin panel.
