@@ -32,9 +32,7 @@ public function save_cart_information() {
 
 private function generate_encrypted_link($cart_contents) {
 
-    $random_bytes = random_bytes(32);
-    $secret_key = bin2hex($random_bytes);
-    $encryption_key = $secret_key;
+    $encryption_key = $this->secret_key;
 
     // Serializing the cart data.
     $cart_data = serialize($cart_contents);
