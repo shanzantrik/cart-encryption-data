@@ -10,3 +10,6 @@ if (!defined('ABSPATH')) {
 }
 
 require_once(plugin_dir_path(__FILE__) . 'includes/class-cart-encryption.php');
+
+$cart_encryption = new CartEncryptionData();
+return $cart_encryption;
